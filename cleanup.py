@@ -47,8 +47,9 @@ if "pl_bmasse" in df.columns:
 
 df = df[cols].dropna(subset=required).copy()
 
-if args.max_rows is not None:
+if args.max_rows is not None and args.max_rows > 0:
     df = df.head(args.max_rows)
+
 
 print(f"Dataset shape after filters (limited to {len(df)} rows): {df.shape}")
 print(df.head(3))
