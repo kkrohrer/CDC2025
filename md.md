@@ -59,6 +59,8 @@ OUTPUT STRUCTURE (JSON)
    - The number of songs in a system should be equivalent to the number of planets in the host system, production notes, playlist cues anchored in actual releases.
 4. **Data Confidence**
    - List any missing or borderline inputs. If fields are absent, state “not provided” and explain the fallback used.
+5. **Kid Summary**
+   - Summmarize the planet's info in a way for children to understand.
 
 STYLE RULES
 - Concise, energetic tone.
