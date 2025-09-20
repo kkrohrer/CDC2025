@@ -64,6 +64,7 @@ OUTPUT STRUCTURE (JSON)
 
 STYLE RULES
 - Concise, energetic tone.
+- Songs must be real.
 - No fluff: each bullet must communicate data-driven reasoning.
 - Never fabricate or “guess” values. If data incomplete, state so and propose alternatives.
 - Maintain consistent terminology for bins and tiers.
