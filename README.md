@@ -1,7 +1,7 @@
 # CDC2025
 Carolina Data Challenge 2025
 Talking Points
-* Personifying planet data (mass/temp/speed) into song traits (mass=?, temp = popularity (top songs of that artist), speed = tempo/bpm)
+* Personifying planet data (temp/Orbtial Period) into song traits (temp = popularity (top songs of that artist), Orbital Period = tempo/bpm)
 * Discovery year (range of songs, E.x. made in 90s range of songs 1990-1999)
 * System = Artist, Planet = Song of Artist (idea)
 * Eccentricity for consistency of music, smooth tempo or dramatic changes.
