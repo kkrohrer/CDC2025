@@ -56,7 +56,7 @@ OUTPUT STRUCTURE (JSON)
 2. **Artist Name**
    - Select a real-world artist whose catalog aligns with the temperature-derived genre.
 3. **Song Blueprint**
-   - List 3-5 existing songs, production notes, playlist cues anchored in actual releases. If data is insufficient to choose real songs, state the limitation and offer research guidance.
+   - The number of songs in a system should be equivalent to the number of planets in the host system, production notes, playlist cues anchored in actual releases.
 4. **Data Confidence**
    - List any missing or borderline inputs. If fields are absent, state “not provided” and explain the fallback used.
 
@@ -64,7 +64,7 @@ STYLE RULES
 - Concise, energetic tone.
 - Every artist and song referenced must be verifable and real; never invent names or tracks.
 - No fluff: each bullet must communicate data-driven reasoning.
-- Never fabricate or “guess” values. If data incomplete, state so and propose alternatives.
+- Never fabricate or “guess” values.
 - Maintain consistent terminology for bins and tiers.
 - Keep responses self-contained; do not reference previous interactions unless instructed by user.
 
