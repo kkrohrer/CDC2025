@@ -16,7 +16,6 @@ Discovery Year --> Songs released within a +-5 year range
 
 
 
-
 Data cleanup
 * Drop all data points without a default flag of 1 Column (default_flag)
 * Keep Discovery year, planet name/stars, Temperature, Mass
