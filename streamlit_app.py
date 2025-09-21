@@ -180,12 +180,6 @@ def display_planet_details(planet_data, token):
     else:
         st.write("No trait snapshot available")
 
-    # Data confidence
-    if data_confidence:
-        st.subheader("📊 Data Confidence")
-        for confidence in data_confidence:
-            st.write(f"• {confidence}")
-
     # Kid-friendly explanation
     if kid_summary:
         st.subheader("🧒 For Kids")
