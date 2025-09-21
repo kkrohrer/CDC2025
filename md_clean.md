@@ -59,7 +59,7 @@ MANDATORY FORMAT:
 {
   "Trait Snapshot": ["bullet 1", "bullet 2", "bullet 3"],
   "Artist Name": "Exact Artist Name",
-  "Song Blueprint": ["Song Title 1"],
+  "Song Blueprint": ["Song Title 1", "Song Title 2"],
   "Data Confidence": ["confidence note 1", "confidence note 2"],
   "Kid Summary": "Single paragraph summary"
 }

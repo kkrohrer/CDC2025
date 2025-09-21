@@ -47,8 +47,40 @@ if "pl_bmasse" in df.columns:
 
 df = df[cols].dropna(subset=required).copy()
 
+# Add diversity sampling
+def sample_diverse_planets(df, max_rows):
+    if len(df) <= max_rows:
+        return df
+
+    # Sample across different temperature ranges for diversity
+    temp_bins = [
+        (0, 4000),      # Cool stars
+        (4000, 7000),   # Balanced stars
+        (7000, 10000),  # Hot stars
+        (10000, 30000), # Very hot stars
+        (30000, 100000) # Extreme stars
+    ]
+
+    samples_per_bin = max_rows // len(temp_bins)
+    remainder = max_rows % len(temp_bins)
+
+    sampled_dfs = []
+    for i, (min_temp, max_temp) in enumerate(temp_bins):
+        bin_df = df[(df['st_teff'] >= min_temp) & (df['st_teff'] < max_temp)]
+        if len(bin_df) > 0:
+            n_samples = samples_per_bin + (1 if i < remainder else 0)
+            if len(bin_df) <= n_samples:
+                sampled_dfs.append(bin_df)
+            else:
+                # Sample with variety in discovery years and orbital periods
+                sampled = bin_df.sample(n=min(n_samples, len(bin_df)), random_state=42)
+                sampled_dfs.append(sampled)
+
+    result = pd.concat(sampled_dfs, ignore_index=True) if sampled_dfs else df.head(max_rows)
+    return result.head(max_rows)  # Ensure we don't exceed max_rows
+
 if args.max_rows is not None and args.max_rows > 0:
-    df = df.head(args.max_rows)
+    df = sample_diverse_planets(df, args.max_rows)
 
 
 print(f"Dataset shape after filters (limited to {len(df)} rows): {df.shape}")
@@ -88,15 +120,23 @@ def normalize_result(obj: dict) -> dict:
 def ask_openai(model: str, system_prompt: str, user_payload: str,
                temperature: float = 0.3,
                max_retries: int = 3,
-               backoff_s: float = 1.5) -> str:
+               backoff_s: float = 1.5,
+               excluded_artists: list = None) -> str:
     """Chat Completions with JSON response_format + simple retries."""
+
+    # Add excluded artists to the prompt if any
+    modified_prompt = system_prompt
+    if excluded_artists:
+        artists_list = ", ".join(excluded_artists)
+        modified_prompt += f"\n\nIMPORTANT: Do NOT use these overused artists: {artists_list}. Choose different artists that fit the genre instead."
+
     attempt = 0
     while True:
         try:
             resp = client.chat.completions.create(
                 model=model,
                 messages=[
-                    {"role": "system", "content": system_prompt},
+                    {"role": "system", "content": modified_prompt},
                     {"role": "user", "content": user_payload.strip() + "\n\nRespond ONLY with JSON."},
                 ],
                 temperature=temperature,
@@ -135,11 +175,18 @@ def row_to_prompt(r) -> str:
 results_path = Path(args.out_jsonl)
 summary_rows = []
 
+# Artist diversity tracking
+artist_usage_count = {}
+MAX_ARTIST_USAGE = 7
+
 with results_path.open("w", encoding="utf-8") as out:
     for row in df.itertuples(index=False):
         payload = row_to_prompt(row)
         try:
-            raw = ask_openai(MODEL_NAME, SYSTEM_PROMPT, payload)
+            # Get list of overused artists to exclude
+            excluded_artists = [artist for artist, count in artist_usage_count.items() if count >= MAX_ARTIST_USAGE]
+
+            raw = ask_openai(MODEL_NAME, SYSTEM_PROMPT, payload, excluded_artists=excluded_artists)
             try:
                 parsed = json.loads(raw)
             except Exception:
@@ -147,6 +194,17 @@ with results_path.open("w", encoding="utf-8") as out:
 
             normalized = normalize_result(parsed)
             has_json = isinstance(parsed, dict) and all(k in normalized for k in REQUIRED_KEYS)
+
+            # Track artist usage for diversity
+            artist_name = normalized.get("Artist Name") or ""
+            if artist_name:
+                artist_usage_count[artist_name] = artist_usage_count.get(artist_name, 0) + 1
+
+                # Log artist usage for monitoring
+                if artist_usage_count[artist_name] == MAX_ARTIST_USAGE:
+                    print(f"[INFO] Artist '{artist_name}' reached limit of {MAX_ARTIST_USAGE} uses, adding to exclusion list")
+                elif artist_usage_count[artist_name] > MAX_ARTIST_USAGE:
+                    print(f"[WARN] Artist '{artist_name}' exceeded limit ({artist_usage_count[artist_name]} uses) - this shouldn't happen!")
 
             # Write one JSON object per line
             out.write(json.dumps({
