@@ -168,7 +168,7 @@ def display_planet_details(planet_data, token):
                     if i == 1 and isinstance(song, str):
                         album_image = search_spotify_track(artist_name, song, token)
                         if album_image:
-                            st.image(album_image, width=150)
+                            st.image(album_image, width=200)
             else:
                 st.write("No song blueprint available")
 
