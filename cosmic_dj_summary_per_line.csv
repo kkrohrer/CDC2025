@@ -1,11 +1,301 @@
 hostname,pl_name,artist_name,song_blueprint_items,has_json
 GJ 3138,GJ 3138 b,Norah Jones,1,True
-LTT 3780,LTT 3780 c,The Warm Collective,1,True
-Kepler-68,Kepler-68 c,The 1975,1,True
-GJ 2126,GJ 2126 b,Norah Jones,1,True
-KELT-20,KELT-20 b,The 1975,1,True
-TOI-1431,TOI-1431 b,Tame Impala,1,True
-ZTF J1230-2655,ZTF J1230-2655 b,Enter Shikari,1,True
-KELT-9,KELT-9 b,The Prodigy,1,True
+LTT 3780,LTT 3780 c,The Internet,1,True
+TOI-1749,TOI-1749 c,Norah Jones,1,True
+K2-3,K2-3 c,Norah Jones,1,True
+Teegarden's Star,Teegarden's Star d,Norah Jones,1,True
+TOI-5634 A,TOI-5634 A b,The Warm Vibes Collective,1,True
+TRAPPIST-1,TRAPPIST-1 f,Leon Bridges,1,True
+TOI-2095,TOI-2095 c,Norah Jones,1,True
+TRAPPIST-1,TRAPPIST-1 b,Leon Bridges,1,True
+TOI-3785,TOI-3785 b,Leon Bridges,1,True
+GJ 667 C,GJ 667 C g,Iron & Wine,1,True
+L 98-59,L 98-59 d,Norah Jones,1,True
+TOI-5293 A,TOI-5293 A b,The Warm Collective,1,True
+Teegarden's Star,Teegarden's Star b,Norah Jones,1,True
+LHS 3154,LHS 3154 b,Hiatus Kaiyote,1,True
+Kepler-26,Kepler-26 c,Hiatus Kaiyote,1,True
+TOI-2015,TOI-2015 c,Leon Bridges,1,True
+GJ 3988,GJ 3988 b,Leon Bridges,1,True
+GJ 720 A,GJ 720 A b,Leon Bridges,1,True
+TOI-6255,TOI-6255 b,Leon Bridges,1,True
+GJ 3470,GJ 3470 b,Anderson .Paak,1,True
+GJ 581,GJ 581 e,Hiatus Kaiyote,1,True
+TOI-1266,TOI-1266 d,Hiatus Kaiyote,1,True
+TOI-5573,TOI-5573 b,Sufjan Stevens,1,True
+TRAPPIST-1,TRAPPIST-1 g,José González,1,True
+TOI-269,TOI-269 b,Hiatus Kaiyote,1,True
+HD 96127,HD 96127 b,Corinne Bailey Rae,1,True
+GJ 3323,GJ 3323 c,Hiatus Kaiyote,1,True
+GJ 1002,GJ 1002 b,Michael Kiwanuka,1,True
+HD 36384,HD 36384 b,Hiatus Kaiyote,1,True
+GJ 1289,GJ 1289 b,José James,1,True
+HIP 79431,HIP 79431 b,José González,1,True
+GJ 15 A,GJ 15 A c,José James,1,True
+HN Lib,HN Lib b,Michael Kiwanuka,1,True
+K2-3,K2-3 d,Anderson .Paak,1,True
+GJ 649,GJ 649 b,José James,1,True
+TOI-5344,TOI-5344 b,Tom Misch,1,True
+TOI-5616,TOI-5616 b,Tom Misch,1,True
+G 264-012,G 264-012 b,Tom Misch,1,True
+GJ 514,GJ 514 b,Anderson .Paak,1,True
+GJ 3473,GJ 3473 b,José James,1,True
+K2-3,K2-3 b,Anderson .Paak,1,True
+GJ 486,GJ 486 b,Sufjan Stevens,1,True
+GJ 179,GJ 179 b,José James,1,True
+HD 260655,HD 260655 b,Anderson .Paak,1,True
+TOI-2379,TOI-2379 b,Tom Misch,1,True
+GJ 1214,GJ 1214 b,Erykah Badu,1,True
+Wolf 1069,Wolf 1069 b,Michael Kiwanuka,1,True
+Kepler-974,KOI-1843.03,Erykah Badu,1,True
+TYC 2187-512-1,TYC 2187-512-1 b,Michael Kiwanuka,1,True
+GJ 740,GJ 740 b,Anderson .Paak,1,True
+LHS 1140,LHS 1140 c,Anderson .Paak,1,True
+LP 791-18,LP 791-18 c,José González,1,True
+GJ 1132,GJ 1132 c,Nick Mulvey,1,True
+TOI-1450 A,TOI-1450 A b,Nick Hakim,1,True
+GJ 1002,GJ 1002 c,José James,1,True
+TRAPPIST-1,TRAPPIST-1 c,Leon Vynehall,1,True
+K2-146,K2-146 c,Tom Misch,1,True
+GJ 317,GJ 317 b,José James,1,True
+TOI-1201,TOI-1201 b,Robert Glasper,1,True
+L 98-59,L 98-59 b,Tom Misch,1,True
+GJ 9689,GJ 9689 b,Tom Misch,1,True
+GJ 3293,GJ 3293 b,Leonard Cohen,1,True
+Kepler-138,Kepler-138 d,José González,1,True
+GJ 1148,GJ 1148 b,Sufjan Stevens,1,True
+TOI-762 A,TOI-762 A b,The Internet,1,True
+TOI-6303,TOI-6303 b,Lianne La Havas,1,True
+GJ 508.2,GJ 508.2 b,Moses Sumney,1,True
+TOI-4201,TOI-4201 b,Erykah Badu,1,True
+Gliese 12,Gliese 12 b,Erykah Badu,1,True
+GJ 849,GJ 849 c,Esperanza Spalding,1,True
+TOI-1749,TOI-1749 b,Emily King,1,True
+TOI-1470,TOI-1470 b,Emily King,1,True
+GJ 667 C,GJ 667 C e,The Internet,1,True
+GJ 1151,GJ 1151 c,Sufjan Stevens,1,True
+YZ Cet,YZ Cet b,Moses Sumney,1,True
+TOI-2095,TOI-2095 b,Emily King,1,True
+GJ 96,GJ 96 b,Michael Kiwanuka,1,True
+GJ 682,GJ 682 c,Michael Kiwanuka,1,True
+HD 240237,HD 240237 b,Corinne Bailey Rae,1,True
+GJ 3779,GJ 3779 b,Moses Sumney,1,True
+HD 220074,HD 220074 b,Corinne Bailey Rae,1,True
+TOI-270,TOI-270 d,Esperanza Spalding,1,True
+GJ 3293,GJ 3293 c,Erykah Badu,1,True
+LP 791-18,LP 791-18 d,Emily King,1,True
+TOI-3884,TOI-3884 b,Sufjan Stevens,1,True
+GJ 3929,GJ 3929 c,Lianne La Havas,1,True
+Gl 410,Gl 410 b,Lianne La Havas,1,True
+Proxima Cen,Proxima Cen d,Lianne La Havas,1,True
+TOI-3629,TOI-3629 b,Corinne Bailey Rae,1,True
+GJ 3138,GJ 3138 c,Erykah Badu,1,True
+TOI-771,TOI-771 b,Emily King,1,True
+GJ 667 C,GJ 667 C f,The Internet,1,True
+TOI-1468,TOI-1468 c,Michael Kiwanuka,1,True
+Wolf 1061,Wolf 1061 b,Lianne La Havas,1,True
+TOI-5720,TOI-5720 b,Leon Vynehall,1,True
+TOI-1468,TOI-1468 b,Erykah Badu,1,True
+HATS-74 A,HATS-74 A b,Robert Glasper,1,True
+TOI-1235,TOI-1235 b,Jordan Rakei,1,True
+TOI-2120,TOI-2120 b,Jesse Harris,1,True
+LP 890-9,LP 890-9 b,Lianne La Havas,1,True
+GJ 536,GJ 536 b,Lianne La Havas,1,True
+Barnard's star,Barnard c,Leonard Cohen,1,True
+GJ 667 C,GJ 667 C c,The Cinematic Orchestra,1,True
+HD 18438,HD 18438 b,José González,1,True
+Kepler-45,Kepler-45 b,Moses Sumney,1,True
+L 98-59,L 98-59 c,Leonard Cohen,1,True
+Gl 378,Gl 378 b,Esperanza Spalding,1,True
+HD 260655,HD 260655 c,Khruangbin,1,True
+L 168-9,L 168-9 b,Brittany Howard,1,True
+TOI-1266,TOI-1266 c,Leon Bridges,1,True
+TOI-7149,TOI-7149 b,Moses Sumney,1,True
+GJ 625,GJ 625 b,Leonard Cohen,1,True
+Ross 508,Ross 508 b,The Armed,1,True
+GJ 3090,GJ 3090 b,Leon Bridges,1,True
+TOI-406,TOI-406.01,Corinne Bailey Rae,1,True
+TOI-1899,TOI-1899 b,Corinne Bailey Rae,1,True
+TOI-6324,TOI-6324 b,Leon Bridges,1,True
+K2-146,K2-146 b,Jesse Harris,1,True
+K2-33,K2-33 b,Jesse Harris,1,True
+CD Cet,CD Cet b,Khruangbin,1,True
+HIP 12961,HIP 12961 b,Janelle Monáe,1,True
+GJ 3929,GJ 3929 b,Leonard Cohen,1,True
+LHS 1815,LHS 1815 b,Michael Franks,1,True
+TOI-1278,TOI-1278 b,Jordan Rakei,1,True
+Kepler-26,Kepler-26 b,Nick Hakim,1,True
+GJ 463,GJ 463 b,Leonard Cohen,1,True
+TOI-1801,TOI-1801 b,The Internet,1,True
+GJ 724,GJ 724 b,Khruangbin,1,True
+TOI-1266,TOI-1266 b,Nick Hakim,1,True
+GJ 1061,GJ 1061 c,Nick Hakim,1,True
+GJ 328,GJ 328 b,José González,1,True
+Kepler-68,Kepler-68 c,Tame Impala,1,True
+GJ 2126,GJ 2126 b,Nick Hakim,1,True
+WASP-74,WASP-74 b,Tame Impala,1,True
+TOI-849,TOI-849 b,Tame Impala,1,True
+HD 156411,HD 156411 b,Tame Impala,1,True
+TOI-1260,TOI-1260 b,Leon Bridges,1,True
+CoRoT-21,CoRoT-21 b,Tame Impala,1,True
+HD 20781,HD 20781 d,Tame Impala,1,True
+HD 24085,HD 24085 b,Tame Impala,1,True
+TOI-4010,TOI-4010 b,Kacey Musgraves,1,True
+WASP-41,WASP-41 b,The 1975,1,True
+K2-266,K2-266 c,The Internet,1,True
+Kepler-160,Kepler-160 d,Phoebe Bridgers,1,True
+HAT-P-17,HAT-P-17 b,The National,1,True
+HD 14067,HD 14067 b,The National,1,True
+WASP-155,WASP-155 b,Foster the People,1,True
+OGLE-TR-182,OGLE-TR-182 b,Foster the People,1,True
+HD 5583,HD 5583 b,Vampire Weekend,1,True
+HD 142022 A,HD 142022 A b,The National,1,True
+TIC 393818343,TIC 393818343 b,The 1975,1,True
+HD 105779,HD 105779 b,Foster the People,1,True
+HD 42813,HIP 29442 d,Foster the People,1,True
+Kepler-79,Kepler-79 c,Foxygen,1,True
+Kepler-105,Kepler-105 b,Foster the People,1,True
+HATS-39,HATS-39 b,The 1975,1,True
+HD 75784,HD 75784 c,Mild High Club,1,True
+HAT-P-22,HAT-P-22 b,The National,1,True
+TOI-2107,TOI-2107 b,MUNA,1,True
+TOI-6130,TOI-6130 b,The 1975,1,True
+WASP-194,WASP-194 b,Chvrches,1,True
+HD 33142,HD 33142 b,The War on Drugs,1,True
+HIP 14810,HIP 14810 c,The National,1,True
+TOI-3023,TOI-3023 b,Hozier,1,True
+TOI-3919,TOI-3919 b,The 1975,1,True
+HATS-56,HATS-56 b,Chvrches,1,True
+TYC 0434-04538-1,TYC 0434-04538-1 b,Mitski,1,True
+K2-37,K2-37 d,MUNA,1,True
+Kepler-102,Kepler-102 c,Foster the People,1,True
+HD 224018,HD 224018 b,Foster the People,1,True
+WASP-141,WASP-141 b,The 1975,1,True
+HD 220842,HD 220842 b,The 1975,1,True
+HD 11964,HD 11964 c,The Civil Wars,1,True
+HD 1397,HD 1397 b,Hozier,1,True
+HD 21411,HD 21411 b,Faye Webster,1,True
+Kepler-79,Kepler-79 e,Faye Webster,1,True
+Kepler-24,Kepler-24 b,Fitz and The Tantrums,1,True
+HD 155358,HD 155358 c,The National,1,True
+WASP-101,WASP-101 b,Paramore,1,True
+DMPP-4,DMPP-4 b,Hozier,1,True
+TOI-969,TOI-969 c,The National,1,True
+TOI-2524,TOI-2524 b,Hozier,1,True
+WASP-56,WASP-56 b,The War on Drugs,1,True
+TOI-1759,TOI-1759 b,Leon Bridges,1,True
+HATS-62,HATS-62 b,Faye Webster,1,True
+HD 109271,HD 109271 b,Foster the People,1,True
+WTS-1,WTS-1 b,The War on Drugs,1,True
+WASP-138,WASP-138 b,Vampire Weekend,1,True
+HD 1461,HD 1461 c,Foster the People,1,True
+HD 87646,HD 87646 b,Vampire Weekend,1,True
+TOI-178,TOI-178 c,Tom Misch,1,True
+Kepler-19,Kepler-19 c,Vampire Weekend,1,True
+TOI-2589,TOI-2589 b,Mild High Club,1,True
+HD 96700,HD 96700 b,MUNA,1,True
+Wendelstein-2,Wendelstein-2 b,Mitski,1,True
+HD 110067,HD 110067 d,The War on Drugs,1,True
+Kepler-51,Kepler-51 c,M83,1,True
+K2-36,K2-36 c,Foster the People,1,True
+TOI-1411,TOI-1411 b,Leon Bridges,1,True
+HD 38801,HD 38801 b,Faye Webster,1,True
+TOI-2322,TOI-2322 b,Hozier,1,True
+TOI-2169 A,TOI-2169 A b,Foster the People,1,True
+WASP-89,WASP-89 b,Vance Joy,1,True
+omi CrB,omi CrB b,Foster the People,1,True
+CoRoT-16,CoRoT-16 b,The Antlers,1,True
+Kepler-109,Kepler-109 b,Vampire Weekend,1,True
+Kepler-57,Kepler-57 b,Alvvays,1,True
+TOI-2373,TOI-2373 b,Faye Webster,1,True
+K2-138,K2-138 c,Vampire Weekend,1,True
+8 UMi,8 UMi b,The War on Drugs,1,True
+HD 23472,HD 23472 f,Hozier,1,True
+Kepler-46,Kepler-46 c,Sufjan Stevens,1,True
+HD 4732,HD 4732 b,The War on Drugs,1,True
+WASP-77 A,WASP-77 A b,Janelle Monáe,1,True
+TOI-2669,TOI-2669 b,Faye Webster,1,True
+HD 218566,HD 218566 b,Nick Hakim,1,True
+TIC 279401253,TIC 279401253 c,Faye Webster,1,True
+HD 12648,HD 12648 b,The Lumineers,1,True
+TOI-3976 A,TOI-3976 A b,Vampire Weekend,1,True
+TOI-3837,TOI-3837 b,Hozier,1,True
+HD 187085,HD 187085 b,The War on Drugs,1,True
+WASP-54,WASP-54 b,Foals,1,True
+HD 155358,HD 155358 b,Fitz and the Tantrums,1,True
+WASP-170,WASP-170 b,Faye Webster,1,True
+NGTS-21,NGTS-21 b,Mitski,1,True
+HD 170469,HD 170469 b,The War on Drugs,1,True
+HD 164604,HD 164604 b,Foster the People,1,True
+K2-292,K2-292 b,MUNA,1,True
+Kepler-106,Kepler-106 c,Fitz and the Tantrums,1,True
+TOI-763,TOI-763 b,Fiona Apple,1,True
+HD 42618,HD 42618 b,Fitz and the Tantrums,1,True
+HD 118203,HD 118203 c,Fiona Apple,1,True
+TOI-5153,TOI-5153 b,MUNA,1,True
+TOI-905,TOI-905 b,Faye Webster,1,True
+HATS-23,HATS-23 b,Fitz and The Tantrums,1,True
+K2-232,K2-232 b,Foster the People,1,True
+HD 224693,HD 224693 b,Fiona Apple,1,True
+Gaia-1,Gaia-1 b,MUNA,1,True
+TOI-1751,TOI-1751 b,Frightened Rabbit,1,True
+TOI-4961,TOI-4961 b,MUNA,1,True
+HD 69830,HD 69830 b,Faye Webster,1,True
+GJ 143,GJ 143 b,Tash Sultana,1,True
+HD 112640,HD 112640 b,Leon Bridges,1,True
+TOI-1937 A,TOI-1937 A b,Foster the People,1,True
+TOI-1288,TOI-1288 c,The War on Drugs,1,True
+WASP-81,WASP-81 b,Foster the People,1,True
+HD 68402,HD 68402 b,The War on Drugs,1,True
+HD 134060,HD 134060 b,Khruangbin,1,True
+HD 160691,HD 160691 b,Coldplay,1,True
+HD 215497,HD 215497 b,Fitz and The Tantrums,1,True
+Kepler-30,Kepler-30 c,The War on Drugs,1,True
+HD 99109,HD 99109 b,Mumford & Sons,1,True
+TOI-1199,TOI-1199 b,Coldplay,1,True
+WASP-72,WASP-72 b,Foster the People,1,True
+TOI-4504,TOI-4504 c,Mitski,1,True
+Qatar-8,Qatar-8 b,Coldplay,1,True
+HD 240210,HD 240210 b,Corinne Bailey Rae,1,True
+K2-38,K2-38 c,Fitz and The Tantrums,1,True
+TOI-1248,TOI-1248 b,Foster the People,1,True
+HD 79498,HD 79498 b,The War on Drugs,1,True
+HD 47366,HD 47366 c,Janelle Monáe,1,True
+HD 235088,HD 235088 b,Mitski,1,True
+GPX-1,GPX-1 b,The Weeknd,1,True
+HAT-P-69,HAT-P-69 b,Paramore,1,True
+HAT-P-70,HAT-P-70 b,Sofi Tukker,1,True
+HATS-58 A,HATS-58 A b,Grizzly Bear,1,True
+HATS-70,HATS-70 b,The Armed,1,True
+HIP 99770,HIP 99770 b,Chvrches,1,True
+KELT-17,KELT-17 b,Chvrches,1,True
+KELT-19 A,KELT-19 A b,CHVRCHES,1,True
+KELT-20,KELT-20 b,Sofi Tukker,1,True
+KELT-21,KELT-21 b,Sofi Tukker,1,True
+KIC 7917485,KIC 7917485 b,Alvvays,1,True
+KOI-13,KOI-13 b,The Armed,1,True
+Kepler-462,Kepler-462 b,CHVRCHES,1,True
+Kepler-462,Kepler-462 c,MUNA,1,True
+MASCARA-4,MASCARA-4 b,The Prodigy,1,True
+NGTS-33,NGTS-33 b,Janelle Monáe,1,True
+TOI-1431,TOI-1431 b,Sofi Tukker,1,True
+TOI-1518,TOI-1518 b,Paramore,1,True
+TOI-1994,TOI-1994 b,The Black Keys,1,True
+TOI-2005,TOI-2005 b,The War on Drugs,1,True
+TOI-2497,TOI-2497 b,M83,1,True
+WASP-167,WASP-167 b,Foals,1,True
+WASP-178,WASP-178 b,The Prodigy,1,True
+WASP-189,WASP-189 b,The Weeknd,1,True
+WASP-33,WASP-33 b,The Prodigy,1,True
+2MASS J19383260+4603591,2MASS J19383260+4603591 b,Skrillex,1,True
+KELT-9,KELT-9 b,Sofi Tukker,1,True
+KOI-55,KOI-55 b,The Armed,1,True
+KOI-55,KOI-55 c,Screaming Females,1,True
+2MASS J19383260+4603591,Kepler-451 c,Enter Shikari,1,True
+2MASS J19383260+4603591,Kepler-451 d,Sofi Tukker,1,True
+V0391 Peg,V0391 Peg b,The Algorithm,1,True
+ZTF J1230-2655,ZTF J1230-2655 b,Svalbard,1,True
+ZTF J1828+2308,ZTF J1828+2308 b,Svalbard,1,True
 NSVS 14256825,NSVS 14256825 b,Skrillex,1,True
 NY Vir,NY Vir b,Skrillex,1,True
+NY Vir,NY Vir c,Skrillex,1,True
