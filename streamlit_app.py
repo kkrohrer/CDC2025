@@ -1,4 +1,5 @@
 import streamlit as st
+import random
 import pandas as pd
 import json
 from pathlib import Path
@@ -226,7 +227,13 @@ def main():
     for result in filtered_results:
         label = f"{result['pl_name']} ({result['hostname']})"
         planet_options.append((label, result))
-
+    
+    if "planet_options" not in st.session_state:
+        random.shuffle(planet_options)
+        st.session_state["planet_options"] = planet_options
+    else:
+        planet_options = st.session_state["planet_options"]
+        
     selected_planet_label = st.sidebar.selectbox(
         "Choose Planet",
         options=[option[0] for option in planet_options]
