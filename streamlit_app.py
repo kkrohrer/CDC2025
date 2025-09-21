@@ -213,27 +213,26 @@ def main():
     hostnames = ["All"] + sorted(summary_df["hostname"].unique().tolist())
     selected_hostname = st.sidebar.selectbox("Filter by System", hostnames)
 
-    # Filter results
-    filtered_results = results
-    if selected_hostname != "All":
-        filtered_results = [r for r in results if r["hostname"] == selected_hostname]
+    # Create all planet options for selectbox (do shuffling once)
+    if "all_planet_options" not in st.session_state:
+        all_options = []
+        for result in results:
+            label = f"{result['pl_name']} ({result['hostname']})"
+            all_options.append((label, result))
+        random.shuffle(all_options)
+        st.session_state["all_planet_options"] = all_options
 
-    if not filtered_results:
+    # Filter options based on selected hostname
+    if selected_hostname == "All":
+        planet_options = st.session_state["all_planet_options"]
+    else:
+        planet_options = [(label, data) for label, data in st.session_state["all_planet_options"]
+                         if data["hostname"] == selected_hostname]
+
+    if not planet_options:
         st.error("No planets found with the selected filters.")
         return
 
-    # Create planet options for selectbox
-    planet_options = []
-    for result in filtered_results:
-        label = f"{result['pl_name']} ({result['hostname']})"
-        planet_options.append((label, result))
-    
-    if "planet_options" not in st.session_state:
-        random.shuffle(planet_options)
-        st.session_state["planet_options"] = planet_options
-    else:
-        planet_options = st.session_state["planet_options"]
-        
     selected_planet_label = st.sidebar.selectbox(
         "Choose Planet",
         options=[option[0] for option in planet_options]
